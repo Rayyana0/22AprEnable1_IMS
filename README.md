@@ -11,9 +11,10 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
-Give examples
-```
+You will need Java and MySQL in order to run this application and use the associated database. 
+You will need to download the Java Installer, as well as the MySQL installer to install Java-16 and the latest version of MySQL.
+You will also need JUnit to run the tests, Maven to create a build of the application and Eclipse to manage any code.
+
 
 ### Installing
 
@@ -21,25 +22,31 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
-```
-Give the example
-```
+Run the Installer for the applications and install the file in Program Files in your Home Directory. 
+Press the Windows button and type "path" into the search field, then select "Edit the system environment variables.
+Click on Environment Variables and then create a NEW system variable. 
+Call the variable 'JAVA_HOME', 'MYSQL_HOME' etc. depending on the application, and point it towards the corresponding folder. 
+Now EDIT the 'path' system variable to include a reference to the /bin (binary files) folder in our JAVA_HOME. 
+Create a new variable called %MYSQL_HOME%\bin or append %JAVA_HOME%\bin to the path variable. 
+Click OK recursively until all system windows are closed.
 
-And repeat
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
 Explain how to run the automated tests for this system. Break down into which tests and what they do
 
+To run the tests, open the project folder in Eclipse, and navigate to a class in the src/test/java.
+Select Run As JUnit Test when you have found the class you wish to test.  
+This will run the tests to make sure the app is working, and will let you know if any test is failing.
+
 ### Unit Tests 
 
 Explain what these tests test, why and how to run them
+
+The unit tests are assessing whether or not the created code is able to produce the expected result when given a know input. 
+If the code doesn't give us the 
+
 
 ```
 Give an example
