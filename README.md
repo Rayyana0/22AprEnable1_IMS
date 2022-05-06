@@ -1,7 +1,7 @@
 Coverage: 34%
 # IMS Week 5 Project
 
-One Paragraph of project description goes here
+An application that functions as an IMS (Inventory Management System) so that an end user can keep a record of customers, items and orders.
 
 ## Getting Started
 
